@@ -189,6 +189,8 @@
     position: relative;
     width: 100%;
     height: fit-content;
+    margin: auto;
+    margin-top: 10px;
   }
 
   .title{
@@ -223,7 +225,7 @@
     margin-top: 0;
     margin-bottom: 0;
     padding: 5px;
-    color: var(--burntOrange);
+    color: var(--turquoise);
     font-family: 'Courier New', Courier, monospace;
   }
 
@@ -319,4 +321,37 @@
     mask-image: linear-gradient(to right, transparent 0%, black 12px, black calc(100% - 12px), transparent 100%);
   }
 
-  
+
+  .email{
+    position: relative;
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    color: var(--burntOrange);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+  }
+
+  .socials-holder{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    margin: auto;
+    margin-top: 0;
+  }
+
+  .social-icon{
+    position: relative;
+    display: flex;
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+  }

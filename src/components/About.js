@@ -22,8 +22,14 @@ class About extends Component{
                                 <div className='title'>About</div>
                                 <div className='line'/>
                             </div>
-                            <div className='filler'>I’m a recent university graduate with a passion for creating responsive web applications. In university I began my studies in Biological sciences before expanding my outlook to include computer sciences.</div>
-                            <div className='animation-container'></div>
+                            <div className='filler'>In university I 
+                            began my studies in the Biological sciences before expanding my outlook to 
+                            include Computer science. My journey into the world of programming began as 
+                            a hobby driven by curiosity and quickly developed into a passion. I am a full 
+                            stack developer with the knowledge and skills to create responsive web applications 
+                            utlizing Javascript, React, and NodeJS.
+                            </div>
+                        
                         </div>
                     </div>
                 </div>

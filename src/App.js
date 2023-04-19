@@ -1,9 +1,10 @@
 import { useState } from 'react';
-import styles from './styles.css'
-import About from './components/About.js'
-import Skills from './components/Skills.js'
+import styles from './styles.css';
+import About from './components/About.js';
+import Skills from './components/Skills.js';
 import Projects from './components/Projects';
 import Name from './components/Name';
+import Contact from './components/Contact';
 
 function App() {
   
@@ -14,16 +15,7 @@ function App() {
     <About/>
     <Skills/>
     <Projects/>
-    <div className='half-page-column-container'>
-      <div className='title-container'>
-        <div className='line'/>
-        <div className='title'>Contact</div>
-        <div className='line'/>
-      </div>
-      <div className='filler'>ChristopherSyrnyk2@ucalgary.ca</div>
-    </div>
-
-
+    <Contact/>
     </>
   );
 }

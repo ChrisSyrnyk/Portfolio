@@ -7,7 +7,6 @@ class Skill extends Component{
             isHover: false,
         }
         
-
     }
 
     openInNewTab(url) {

@@ -105,6 +105,7 @@
     width: 100vw;
     max-width: 100%;
     height: 100vh;
+    min-height: 600px;
     margin: auto;
   }
 
@@ -116,6 +117,7 @@
     width: 100vw;
     max-width: 100%;
     height: 50vh;
+    min-height: 300px;
     margin: auto;
   }
 
@@ -127,6 +129,7 @@
     width: 100vw;
     max-width: 100%;
     height: 50vh;
+    min-height: 300px;
     margin: auto;
   }
 
@@ -165,12 +168,13 @@
     --currentWidth: 33vw;
     position: relative;
     width: calc(0.8 * var(--currentWidth));
+    max-width: 300px;
     height: auto;
     margin: auto;
     background-color: var(--slateBlue);
     border-style: solid;
-    border-color: var(--turquoise);
-    border-width: 5px;
+    border-color: var(--lightOrange);
+    border-width: 3px;
     border-radius: 20px;
     
   }
@@ -181,6 +185,7 @@
     height: fit-content;
     padding: 10px;
     margin: auto;
+    user-select: none;
   }
   
   .title-container{
@@ -191,6 +196,7 @@
     height: fit-content;
     margin: auto;
     margin-top: 10px;
+    user-select: none;
   }
 
   .title{
@@ -258,6 +264,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
     letter-spacing: 1.5px;
+    user-select: none;
   }
 
   .skills-container{
@@ -277,6 +284,7 @@
     width: 95%;
     max-width: 300px;
     height: 90%;
+    max-height: 600px;
     background-color: var(--slateBlue);
     border-radius: 10px;
     margin: auto;
@@ -286,39 +294,30 @@
     position: relative;
     display: flex;
     flex: 0 0 auto;
-    width: 30%;
-    height: 70px;
+    flex-direction: column;
+    width: 40%;
+    height: 28%;
     margin: auto;
-    background-color: black;
-    border-radius: 5px;
+    padding: 5px;
   }
 
-  .project-card{
+  .icon-holder{
     position: relative;
     display: flex;
-    flex: 0 0 auto;
-    width: 30%;
     height: 90%;
-    background-color: var(--slateBlue);
-    border-radius: 10px;
+    width: 90%;
     margin: auto;
-    margin-left: 5px;
-    margin-right: 5px;
   }
 
-  .side-scroll-container{
+  .name-holder{
     position: relative;
     display: flex;
-    flex-direction: row;
-    width: 92%;
-    height: 80%;
+    height: auto;
+    width: auto;
     margin: auto;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    -webkit-overflow-scrolling: auto;
-    mask-image: linear-gradient(to right, transparent 0%, black 12px, black calc(100% - 12px), transparent 100%);
+    padding-top: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--yellow);
   }
 
 
@@ -329,11 +328,24 @@
     margin: auto;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 10px;
-    color: var(--burntOrange);
+    padding: 5px;
+    color: rgb(26, 26, 26);
+    background-color: var(--turquoise);
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
   }
+
+  .email:active{
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+  }
+
+  .email:hover{
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
+  }  
 
   .socials-holder{
     position: relative;
@@ -354,4 +366,130 @@
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 10px;
+    background-color: var(--slateBlue);
+  }
+
+  .social-icon:active{
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+  }
+
+  .social-icon:hover{
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
+  }
+
+  /*---------------Project--------------*/
+
+  .side-scroll-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    height: 80%;
+    margin: auto;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    -webkit-overflow-scrolling: auto;
+    mask-image: linear-gradient(to right, transparent 0%, black 12px, black calc(100% - 12px), transparent 100%);
+  }
+
+  .project-card{
+    position: relative;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    width: 80vw;
+    min-width: 650px;
+    max-width: 800px;
+    height: 90%;
+    background-color: var(--slateBlue);
+    border-radius: 10px;
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .project-image{
+    position: relative;
+    display: flex;
+    height: 80%;
+    width: auto;
+    margin: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 5px;
+  }
+
+  .project-right-cont{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: auto;
+    margin: auto;
+    margin-right: 1%;
+  }
+
+  .project-name{
+    position: relative;
+    display: flex;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 0;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--lightOrange);
+    user-select: none;
+  }
+
+  .project-desc{
+    position: relative;
+    display: flex;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--turquoise);
+    user-select: none;
+  }
+
+  .buttons-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    margin-top: 0;
+  }
+
+  .project-link{
+    position: relative;
+    display: flex;
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: 5px;
+    background-color: var(--turquoise);
+    border-radius: 10px;
+    color: white;
+    user-select: none;
+  }
+
+  .project-link:hover{
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
+  }
+
+  .project-link:active{
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
   }

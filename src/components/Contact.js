@@ -1,13 +1,20 @@
 import React, {Component} from 'react';
-import gitIcon from '../img/github.png';
-import linkedinIcon from '../img/linkedin.png'
+import gitIcon from '../img/icons/github.svg'
+import linkedinIcon from '../img/icons/linkedin.svg'
 
 class Contact extends Component{
     constructor(props){
         super(props)
     }
     
+    openInNewTab(url) {
+        window.open(url, '_blank').focus();
+      }
 
+    mailTo(emailAddress)
+      {
+        window.location.href = "mailto:" + emailAddress;
+      }
 
     render(){
         return(
@@ -19,12 +26,23 @@ class Contact extends Component{
                         <div className='line'/>
                     </div>
                     <div className='filler'>Contact me via email at:</div>
-                    <div className='email'>ChristopherSyrnyk2@ucalgary.ca</div>
+                    <div 
+                      className='email'
+                      onClick={()=>this.mailTo('christopher.syrnyk2@ucalgary.ca')}
+                    >
+                        Christopher.syrnyk2@ucalgary.ca
+                    </div>
                     <div className='filler'>or</div>
                     <div className='filler'>Reach me through social media:</div>
                     <div className='socials-holder'>
-                        <img src = {gitIcon} className='social-icon'/>
-                        <img src = {linkedinIcon} className='social-icon'/>
+                        <img src = {gitIcon} 
+                        className='social-icon'
+                        onClick={()=>this.openInNewTab('https://github.com/ChrisSyrnyk')}
+                        />
+                        <img src = {linkedinIcon} 
+                        className='social-icon'
+                        onClick={()=>this.openInNewTab('https://www.linkedin.com/in/christopher-syrnyk-3b5058259/')}
+                        />
                     </div>
                     <div className='title-container'>
                         <div className='line'/>

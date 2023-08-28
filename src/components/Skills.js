@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import SkillCard from './SkillCard';
 
 class Skills extends Component{
     constructor(props){
@@ -19,22 +20,19 @@ class Skills extends Component{
                         <div className='category-div'>
                             <div className='skill-category'>Front-end</div>
                             <div className='skills-card'>
-                                <div className='skill'></div>
-                                <div className='skill'></div>
-                                <div className='skill'></div>
-                                <div className='skill'></div>
-                                <div className='skill'></div>
-                                <div className='skill'></div>
+                                <SkillCard category = {'FE'}/>
                             </div>
                         </div>
                         <div className='category-div'>
                             <div className='skill-category'>Back-end</div>
                             <div className='skills-card'>
+                                <SkillCard category = {'BE'}/>
                             </div>
                         </div>
                         <div className='category-div'>
                             <div className='skill-category'>Miscellaneous</div>
                             <div className='skills-card'>
+                                <SkillCard category = {'MS'}/>
                             </div>
                         </div>
                     </div>

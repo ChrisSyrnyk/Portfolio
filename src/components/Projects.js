@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import ProjectList from './ProjectList';
+import Project from './Project';
 
 class Projects extends Component{
     constructor(props){
@@ -16,10 +18,7 @@ class Projects extends Component{
                         <div className='line'/>
                     </div>
                     <div className='side-scroll-container'>
-                        <div className='project-card'></div>
-                        <div className='project-card'></div>
-                        <div className='project-card'></div>
-                        <div className='project-card'></div>
+                        <Project ProjectList = {ProjectList}/>
                     </div>
                 </div>
             </>

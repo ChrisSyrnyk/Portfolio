@@ -308,8 +308,8 @@
   .icon-holder{
     position: relative;
     display: flex;
-    height: 90%;
-    width: 90%;
+    height: 80%;
+    width: 80%;
     margin: auto;
   }
 
@@ -321,6 +321,7 @@
     margin: auto;
     padding-top: 2px;
     font-family: 'Courier New', Courier, monospace;
+    font-size: min(2vw,2vh);
     color: var(--yellow);
   }
 

@@ -136,7 +136,7 @@
   .about-left{
     position: relative;
     display: flex;
-    width: 33%;
+    width: fit-content;
     height: 100%;
     margin: 0;
   }
@@ -159,7 +159,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 67%;
+    width: auto;
     height: 100%;
     margin: 0;
   }
@@ -167,9 +167,12 @@
   .about-photo{
     --currentWidth: 33vw;
     position: relative;
-    width: calc(0.8 * var(--currentWidth));
+   /* width: calc(0.8 * var(--currentWidth));
     max-width: 300px;
     height: auto;
+    */
+    max-height: 90%;
+    width: auto;
     margin: auto;
     background-color: var(--slateBlue);
     border-style: solid;
@@ -233,6 +236,7 @@
     padding: 5px;
     color: var(--turquoise);
     font-family: 'Courier New', Courier, monospace;
+    font-size: min(2.5vw, 2.5vh);
   }
 
   .animation-container{

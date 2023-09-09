@@ -11,7 +11,10 @@ class About extends Component{
     render(){
         return(
             <>
-                <div className='half-page-row-container'>
+                <div 
+                className='half-page-row-container'
+                id ='about-section'
+                >
                     <div className='about-left'>
                         <img className='about-photo' src = {profile}>
                         </img>

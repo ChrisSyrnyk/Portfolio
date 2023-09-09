@@ -5,6 +5,10 @@ class Name extends Component{
         super(props)
     }
     
+    smoothScroll(divId){
+        var elmntToView = document.getElementById(divId);
+        elmntToView.scrollIntoView({behavior: "smooth"}); 
+    }
 
 
     render(){
@@ -18,7 +22,10 @@ class Name extends Component{
                             </div>
                         </div>
                     </div>
-                    <div className='scroll-down'/>
+                    <div 
+                    className='scroll-down'
+                    onClick={()=>this.smoothScroll('about-section')}
+                    />
                     <div className='center-Line'/>
                 </div>
                 <div className='half-page-column-container'/>

@@ -25,15 +25,15 @@ class Contact extends Component{
                         <div className='title'>Contact</div>
                         <div className='line'/>
                     </div>
-                    <div className='filler'>Contact me via email at:</div>
+                    <div className='contact-filler'>Contact me via email at:</div>
                     <div 
                       className='email'
                       onClick={()=>this.mailTo('christopher.syrnyk2@ucalgary.ca')}
                     >
                         Christopher.syrnyk2@ucalgary.ca
                     </div>
-                    <div className='filler'>or</div>
-                    <div className='filler'>Reach me through social media:</div>
+                    <div className='contact-filler'>or</div>
+                    <div className='contact-filler'>Reach me through social media:</div>
                     <div className='socials-holder'>
                         <img src = {gitIcon} 
                         className='social-icon'

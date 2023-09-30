@@ -338,6 +338,20 @@
     color: var(--yellow);
   }
 
+  .contact-filler{
+    position: relative;
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5px;
+    color: var(--turquoise);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: min(3.5vw, 3.5vh, 15px);
+    
+  }
+
 
   .email{
     position: relative;

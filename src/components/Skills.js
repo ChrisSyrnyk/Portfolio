@@ -16,6 +16,8 @@ class Skills extends Component{
                         <div className='title'>Tools & Skills</div>
                         <div className='line'/>
                     </div>
+
+                    
                     <div className='skills-container'>
                         <div className='category-div'>
                             <div className='skill-category'>Front-end</div>
@@ -36,6 +38,8 @@ class Skills extends Component{
                             </div>
                         </div>
                     </div>
+                    
+
                 </div>
             </>
             

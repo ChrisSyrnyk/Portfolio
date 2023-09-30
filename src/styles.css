@@ -251,6 +251,7 @@
     display: flex;
     flex-direction: column;
     width: 33%;
+    min-width: 150px;
     height: 100%;
     margin: auto;
   }
@@ -269,12 +270,27 @@
   }
 
   .skills-container{
+    /*
     position: relative;
     display: flex;
     flex-direction: row;
     width: 95%;
     height: 80%;
     margin: auto;
+    */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    height: 80%;
+    margin: auto;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    -webkit-overflow-scrolling: auto;
+    mask-image: linear-gradient(to right, transparent 0%, black 12px, black calc(100% - 12px), transparent 100%);
+
   }
 
   .skills-card{

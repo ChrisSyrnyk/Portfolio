@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.503ee282.css",
-    "main.js": "/static/js/main.d4a90746.js",
+    "main.css": "/static/css/main.ca3d6332.css",
+    "main.js": "/static/js/main.a9b739ca.js",
     "static/media/WeatherApp.png": "/static/media/WeatherApp.c6f741cce16790df4b4c.png",
     "static/media/LegoStore.png": "/static/media/LegoStore.d775c6d28b23c69a76c7.png",
     "static/media/profile.png": "/static/media/profile.b704f64894dad5e4f6ab.png",
@@ -22,11 +22,11 @@
     "static/media/trello.svg": "/static/media/trello.df8956c40960c56615895bad406c2c05.svg",
     "index.html": "/index.html",
     "static/media/webpack.svg": "/static/media/webpack.f8f137829c39f4dd75e5c5709aafa29f.svg",
-    "main.503ee282.css.map": "/static/css/main.503ee282.css.map",
-    "main.d4a90746.js.map": "/static/js/main.d4a90746.js.map"
+    "main.ca3d6332.css.map": "/static/css/main.ca3d6332.css.map",
+    "main.a9b739ca.js.map": "/static/js/main.a9b739ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.503ee282.css",
-    "static/js/main.d4a90746.js"
+    "static/css/main.ca3d6332.css",
+    "static/js/main.a9b739ca.js"
   ]
 }

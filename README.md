@@ -4,6 +4,8 @@ Step right into my portfolio hub! Crafted with React, this web application is fi
 
 [View Project](https://christophersyrnyk.dev)
 
+![DisplayPhoto](https://github.com/ChrisSyrnyk/Portfolio/blob/main/src/img/portfolio-display.png)
+
 # Goals
 - Include all projects in one place
 - Display all skills

@@ -10,6 +10,7 @@ Step right into my portfolio hub! Crafted with React, this web application is fi
 - Provide contact info
 - Host on github pages with a custom domain
 - Utilize modular component construction to allow for easy inculsion of future projects/skills
+- Design for both desktop and mobile with one set of styles
 
 # Built with
 - React.js

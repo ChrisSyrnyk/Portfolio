@@ -18,6 +18,7 @@ Step right into my portfolio hub! Crafted with React, this web application is fi
 - React.js
 - HTML
 - CSS
+- SCSS
 
 # Contact
 - [LinkedIn](https://www.linkedin.com/in/christopher-syrnyk-3b5058259/)

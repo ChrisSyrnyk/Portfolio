@@ -23,4 +23,4 @@ Step right into my portfolio hub! Crafted with React, this web application is fi
 # Contact
 - [LinkedIn](https://www.linkedin.com/in/christopher-syrnyk-3b5058259/)
 - [Portfolio](https://christophersyrnyk.dev)
--test
+

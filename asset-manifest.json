@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.ca3d6332.css",
-    "main.js": "/static/js/main.a9b739ca.js",
+    "main.js": "/static/js/main.fa904963.js",
     "static/media/WeatherApp.png": "/static/media/WeatherApp.c6f741cce16790df4b4c.png",
     "static/media/LegoStore.png": "/static/media/LegoStore.d775c6d28b23c69a76c7.png",
     "static/media/profile.png": "/static/media/profile.b704f64894dad5e4f6ab.png",
     "static/media/NotaRun.png": "/static/media/NotaRun.c5b33c3bacf5cc9d1f01.png",
+    "static/media/CulinaryChronicles.png": "/static/media/CulinaryChronicles.f6e032c72e060aa27210.png",
     "static/media/react.svg": "/static/media/react.4ee8d0003d0f7f9ccea03ac4aa13fb99.svg",
     "static/media/css3.svg": "/static/media/css3.dbd31fe14ec796185689723739441965.svg",
     "static/media/nodejs.svg": "/static/media/nodejs.10354602b1c0786e53037290e5ad547a.svg",
@@ -23,10 +24,10 @@
     "index.html": "/index.html",
     "static/media/webpack.svg": "/static/media/webpack.f8f137829c39f4dd75e5c5709aafa29f.svg",
     "main.ca3d6332.css.map": "/static/css/main.ca3d6332.css.map",
-    "main.a9b739ca.js.map": "/static/js/main.a9b739ca.js.map"
+    "main.fa904963.js.map": "/static/js/main.fa904963.js.map"
   },
   "entrypoints": [
     "static/css/main.ca3d6332.css",
-    "static/js/main.a9b739ca.js"
+    "static/js/main.fa904963.js"
   ]
 }

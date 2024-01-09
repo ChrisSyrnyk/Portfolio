@@ -1,8 +1,16 @@
 import WeatherAppimage from '../img/project-images/WeatherApp.png';
 import NotaRunimage from '../img/project-images/NotaRun.png';
 import LegoStoreimage from '../img/project-images/LegoStore.png';
+import CulinaryChroniclesimage from '../img/project-images/CulinaryChronicles.png'
 
 const ProjectList = [
+    {
+        name: 'Culinary Chronicles',
+        img: CulinaryChroniclesimage,
+        desc: 'Culinary Chronicles is a blogging web application containing culinary poems created by openAI.',
+        codeURL: 'https://github.com/ChrisSyrnyk/blog-user-frontend',
+        previewURL: 'https://culinary-chronicles.onrender.com',
+    },
     {
         name: 'NotaRun',
         img: NotaRunimage,
